@@ -1,0 +1,50 @@
+<html><head><style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+    
+    <style type="text/css" id="operaUserStyle"></style></head><body>
+
+<div class="tooltip"><img src="36.jpg" usemap="#image-map" title="map366" alt="map36"></div>
+
+<map name="image-map" alt="map36">
+    <div class="tooltip"><area target="" alt="level1" title="leveluno" href="https://www.newgrounds.com/portal/view/930021" coords="589,432,653,456,704,446,727,415,747,370,746,316,729,271,692,249,696,185,639,168,611,189,558,199,559,295,561,343,561,383" shape="poly"></div>
+    <div class="tooltip"><area target="" alt="baws" title="boss" href="final-boss.html" coords="405,319,558,264,555,199,575,193,582,156,599,120,597,81,506,50,402,55,353,77,294,102,293,134,321,193,342,290" shape="poly"></div>
+</map>
+</body></html>
